@@ -1,27 +1,26 @@
 # OtakuShelf
 
-OtakuShelf is a cross-platform Flutter application for discovering manga and anime, viewing details, saving favorites, writing personal reviews, and switching between light and dark themes.
+OtakuShelf is a cross-platform Flutter application for discovering manga, viewing details, saving favorites, writing personal reviews, and switching between light and dark themes.
 
-The project uses the Open Library API for book and manga-style searches and the Jikan API for top anime data. Favorites, reviews, and theme preferences are stored locally on the device using SharedPreferences, so the app does not require a user account, backend server, or database.
+The project uses the Open Library API for manga-style and book-based search results. Favorites, reviews, and theme preferences are stored locally on the device using SharedPreferences, so the app does not require a user account, backend server, or database.
 
 ---
 
 ## Features
 
 - Animated splash screen
-- Manga and book search
-- Top anime discovery
+- Manga search and discovery
 - Open Library API integration
-- Jikan API integration
 - Cover image display
-- Anime score display
-- Detail pages
+- Manga detail pages
 - Add and remove favorites
 - Save personal reviews
-- Local data persistence
+- Local data persistence with SharedPreferences
 - Light and dark themes
 - Bottom navigation
 - Material 3 interface
+- Riverpod state management
+- GoRouter navigation
 - Cross-platform Flutter support
 
 ---
@@ -503,8 +502,10 @@ Possible improvements include:
 
 ## Summary
 
-OtakuShelf is a Flutter-based manga and anime discovery application that combines Open Library search, Jikan anime data, Riverpod state management, GoRouter navigation, SharedPreferences persistence, and Material 3 styling.
+OtakuShelf is a Flutter-based manga discovery application that combines Open Library search, Riverpod state management, GoRouter navigation, SharedPreferences persistence, and Material 3 styling.
 
-Users can search for titles, browse anime, open detail pages, save favorites, write personal reviews, and switch between light and dark themes.
+Users can search for manga, open detail pages, save favorites, write personal reviews, and switch between light and dark themes.
+
+The project can be run locally with Flutter on Android, web, Windows, macOS, Linux, or iOS depending on the development environment.
 
 The project can be run locally with Flutter on Android, web, Windows, macOS, Linux, or iOS depending on the development environment.
